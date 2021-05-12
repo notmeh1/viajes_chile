@@ -8,11 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Raleway 300, 400, 700 Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link href="assets/img/viajes.svg" rel="icon">
     <!-- Local Stylesheet -->
     <link href="assets/css/stylesheet.css" rel="stylesheet">
     <title>Viajes Chile</title>
 </head>
     <body>
+        <!-- Hacer navbar transparente -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
               <a class="navbar-brand" href="index.html"> <img src="assets/img/viajes.svg" alt="Logo de Viajes Chile" width="32" height="32">Viajes Chile</a>
@@ -40,6 +46,7 @@
         </nav>
 
             <!-- Ver si hay que ponerle container-fluid -->
+            <!-- Poner todas las fotos del mismo tamaño -->
             <header>
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -67,23 +74,23 @@
         <div class="container">
             <section>
                 <div class="" style="background: #000000; color:#ffffff;">
-                    <h1 class="text-center titulos">¿Quienes somos?</h1>
+                    <h1 class="text-center border-bottom border-info">¿Quienes somos?</h1>
                     <div class="row">
                         <div class="col-xl-4">
                             <div class="text-center" style="background: #2596be;">
-                                <i class="fas fa-plane"></i>
+                                <i class="fas fa-plane fa-2x"></i>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
                         </div>
                         <div class="col-xl-4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
                             <div class="text-center" style="background: #2596be;">
-                                <i class="fas fa-mountain"></i>
+                                <i class="fas fa-mountain fa-2x"></i>
                             </div>
                         </div>
                         <div class="col-xl-4">
                             <div class="text-center" style="background: #2596be;">
-                                <i class="fas fa-route"></i>
+                                <i class="fas fa-route fa-2x"></i>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
                         </div>
@@ -92,13 +99,14 @@
             </section>
             <section>
                 <div class="" style="background: #000000; color:#ffffff;">
-                    <h1 class="text-center titulos">Destacados</h1>
+                    <h1 class="text-center border-bottom border-info">Destacados</h1>
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="card" style="width: 18rem; background: #2596be;">
                                 <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +114,8 @@
                             <div class="card" style="width: 18rem; background: #2596be;">
                                 <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +123,8 @@
                             <div class="card" style="width: 18rem; background: #2596be;">
                                 <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +132,8 @@
                             <div class="card" style="width: 18rem; background: #2596be;">
                                 <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +142,7 @@
             </section>
             <section>
                 <div class="" style="background: #000000; color:#ffffff;">
-                    <h1 class="text-center titulos">Contacto</h1>
+                    <h1 class="text-center border-bottom border-info">Contacto</h1>
                     <!-- Insertar Typeform -->
                 </div>
             </section>
@@ -143,7 +154,7 @@
                         <div class="col-xl-6 text-center">
                             <h1>VIAJES CHILE</h1>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 text-center">
                             <i class="fab fa-github-square fa-3x"></i>
                             <i class="fab fa-linkedin fa-3x"></i>
                             <i class="fab fa-twitter-square fa-3x"></i>
