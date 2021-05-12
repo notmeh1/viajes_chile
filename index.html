@@ -4,9 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap 5.0.0 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Local Stylesheet -->
+    <link href="assets/css/stylesheet.css" rel="stylesheet">
+    <title>Viajes Chile</title>
 </head>
-<body>
-    
-</body>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"> <img src="assets/img/viajes.svg" alt="Logo de Viajes Chile" width="32" height="32">Viajes Chile</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#work">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid px-0">
+            <header>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </header>
+            <section>
+                <div class="" style="background: #000000; color:#ffffff;">
+                    <h1 class="text-center">¿Quienes somos?</h1>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
+                        </div>
+                        <div class="col-xl-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet.</p>
+                        </div>
+                    </div> <!-- Cierre Row-->
+                </div>
+            </section>
+            <section>
+                <div class="" style="background: #000000; color:#ffffff;">
+                    <h1 class="text-center">Destacados</h1>
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="" style="background: #000000; color:#ffffff;">
+                    <h1 class="text-center">Contacto</h1>
+                    <!-- Insertar Typeform -->
+                </div>
+            </section>
+            <footer>
+                <div class="" style="background:#2596be; color: #ffffff;">
+                    <div class="row">
+                        <div class="">
+                            <h1>VIAJES CHILE</h1>
+                        </div>
+                        <div class="">
+                            <i class="fab fa-github-square"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div> <!-- Cierre container -->
+
+        <!-- Popper 2.9.2 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <!-- Bootstrap 5.0.0 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+        <!-- Local Script JS -->
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
