@@ -1,4 +1,13 @@
+body {
+    background: #000000;
+}
 
-.navbar{
+.navbar {
     background-color: transparent;
 }
+
+.titulos {
+    border-color:#2596be;
+    border-bottom: 1px;
+}
+
