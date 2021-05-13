@@ -18,7 +18,6 @@
     <title>Viajes Chile</title>
 </head>
     <body>
-        <!-- Hacer navbar transparente -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
               <a class="navbar-brand" href="index.html"> <img src="assets/img/viajes.svg" alt="Logo" width="32" height="32">Viajes Chile</a>
@@ -44,9 +43,6 @@
               </div>
             </div>
         </nav>
-
-            <!-- Ver si hay que ponerle container-fluid -->
-            <!-- Poner todas las fotos del mismo tamaño -->
             <header id="inicio">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -75,19 +71,19 @@
                 <div class="py-5" style="background: #000000; color:#ffffff;">
                     <h1 class="text-center border-bottom border-info pb-3">¿Quienes somos?</h1>
                     <div class="row">
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                             <div class="text-center" style="background: #2596be;">
                                 <i class="fas fa-plane fa-2x"></i>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet. Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget enim leo. Suspendisse nec tristique lacus. Pellentesque ac tellus mi. Curabitur sit amet gravida lorem. Duis id quam ac lectus feugiat elementum. Ut lectus mi, viverra eget hendrerit in, malesuada vitae orci. Suspendisse molestie ex a vestibulum maximus. Pellentesque sed turpis ipsum. Cras tincidunt sapien in suscipit sollicitudin. Aenean ac massa eget tortor varius rhoncus. Ut dignissim ipsum leo, quis ullamcorper dolor ultrices imperdiet. Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
                             <div class="text-center" style="background: #2596be;">
                                 <i class="fas fa-mountain fa-2x"></i>
                             </div>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 d-none d-xl-block">
                             <div class="text-center" style="background: #2596be;">
                                 <i class="fas fa-route fa-2x"></i>
                             </div>
@@ -97,12 +93,30 @@
                 </div>
             </section>
             <section id="destacados">
-                <div class="py-5" style="background: #000000; color:#ffffff;">
+                <div class="pt-3" style="background: #000000; color:#ffffff;">
                     <h1 class="text-center border-bottom border-info pb-3">Destacados</h1>
                     <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-3">
                             <div class="card" style="width: 18rem; background: #2596be;">
-                                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                                <img src="assets/img/card1.jpg" class="card-img-top" alt="..." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum">
+                                <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-3">
+                            <div class="card" style="width: 18rem; background: #2596be;">
+                                <img src="assets/img/card2.jpg" class="card-img-top" alt="..." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum">
+                                <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-3">
+                            <div class="card" style="width: 18rem; background: #2596be;">
+                                <img src="assets/img/card3.jpg" class="card-img-top" alt="..." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum">
                                 <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                                 <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
@@ -111,25 +125,7 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="card" style="width: 18rem; background: #2596be;">
-                                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="card" style="width: 18rem; background: #2596be;">
-                                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                                <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="card" style="width: 18rem; background: #2596be;">
-                                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                                <img src="assets/img/card4.jpg" class="card-img-top" alt="..." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lorem ipsum">
                                 <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                                 <p class="card-text">Vestibulum sollicitudin erat felis, non porttitor lectus aliquam quis.</p>
@@ -142,12 +138,11 @@
             <section id="contacto">
                 <div class="py-5" style="background: #000000; color:#ffffff;">
                     <h1 class="text-center border-bottom border-info pb-3">Contacto</h1>
-                    <!-- Insertar Typeform -->
                     <div class="typeform-widget" data-url="https://form.typeform.com/to/FJwX6ZOO?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
             </section>
         </div> <!-- Cierre container-->
-        <div class="container-fluid px-0">
+        <div class="container-fluid">
             <footer>
                 <div class="" style="background:#2596be; color: #ffffff;">
                     <div class="row">

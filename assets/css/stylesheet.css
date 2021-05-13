@@ -7,9 +7,9 @@ body {
     background-color: transparent !important;
 }
 
-nav .navbar-nav li a{
+nav .navbar-nav li a {
     color: white !important;
-    }
+}
 
 .card img {
     width:100%;
@@ -19,6 +19,7 @@ nav .navbar-nav li a{
 footer h1 {
     font-weight: 400;
 }
+
 .footer_icons i{
     margin:0 8px;
 }
